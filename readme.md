@@ -8,6 +8,7 @@
 + мессенджер на странице: messanger/messanger.php
 + Вэбсокет сервер - в файле index.js работает на порту 3000
 + Все запросы к БД выполняет сервер index.js на Node.js
++ Библиотеки (Socket io, Express, mysql2) установлены через менеждер зависимостей NPM, тк как все они предназначены для работы с Node.JS
 
 ### ВАЖНО:
 Для локального теста приложения на разных устройстах замените в файле messanger/messanger.php адрес сервера websocket с localhost на локальный ip устройства на котором будет запущен файл index.js (строка 318):
@@ -68,15 +69,13 @@
 
 
 ---
-### Использованные технологии:
+### стек технологий:
 + HTML5
 + CSS
 + PHP 8
-+ boostrap 
-+ JS
-+ библиотеки Socket io, Express
-+ модуль mysql2 для Node.js
-+ Jquery
++ JS ES6
++ boostrap + Jquery
++ библиотеки Socket io, Express, mysql2 для Node.JS
 
 
 
